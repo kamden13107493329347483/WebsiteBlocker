@@ -67,16 +67,6 @@ namespace WebstieBlocker
             return code;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void UnBlock_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             richTextBox1.Text = File.ReadAllText(Hpath);     
